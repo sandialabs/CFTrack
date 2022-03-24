@@ -1,0 +1,23 @@
+{
+    "data_path": "/CHANGE/THIS/path/to/GOES_image_dir/",
+    "start_year": 2019,
+    "start_day": 168,
+    "start_hour": 5,
+    "start_minute": 0,
+    "end_year": 2019,
+    "end_day": 168,
+    "end_hour": 7,
+    "end_minute": 5,
+    "mask": {
+	"xlo": 1310,
+	"xhi": 1360,
+	"ylo": 460,
+	"yhi": 510
+    },
+    "crop": {
+	"xlo": 1000,
+	"xhi": 1500,
+	"ylo": 400,
+	"yhi": 800
+    }
+}
