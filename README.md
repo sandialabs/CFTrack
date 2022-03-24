@@ -118,7 +118,7 @@ Pip will search for and install any missing prerequisite Python packages before 
 
 5. Update the samples/test_config_jun.json file.  Make sure the **data_path** argument is set to point to the data directory structure from step 4.  In the example above, this would be the path to the "GOES_image_dir" directory.  
 
-_Note: this path can either be absolute or relative to the test_config_jun.json file.  When specifying absolute paths, avoid using the "~" home directory shortcut and instead use the whole path (e.g. "/Users/janedoe/" instead of "~/")._
+_Note: this path can either be absolute or relative to the test_config_jun.json file.  When specifying absolute paths, avoid using the "\~" home directory shortcut and instead use the whole path (e.g. "/Users/janedoe/" instead of "\~/")._
 
 6. To run CFTrack, call cftrack-run from the command line with the config file as input:
 
